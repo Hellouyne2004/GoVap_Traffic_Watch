@@ -28,13 +28,13 @@ A fully serverless data pipeline that crawls HERE traffic data for Go Vap, store
 
 ## Architecture Diagram
 <div align="center">
-  <img src="./img/architecture.png" alt="Architecture Diagram" width="80%" />
+  <img src="/img/architecture.png" alt="Architecture Diagram" width="80%" />
 </div>
 
 ## Demo Dashboard
 <div align="center">
   <a href="https://lookerstudio.google.com/u/0/reporting/a60b9db8-85ba-4e01-b336-2d1e6c4ab968/page/yRBMF" target="_blank">
-    <img src="./img/dashboard.png" alt="Demo Dashboard Tab 1" />
+    <img src="/img/dashboard.png" alt="Demo Dashboard Tab 1" />
   </a>
   <p><a href="https://lookerstudio.google.com/u/0/reporting/a60b9db8-85ba-4e01-b336-2d1e6c4ab968/page/yRBMF" target="_blank">View Full Dashboard</a></p>
 </div>
