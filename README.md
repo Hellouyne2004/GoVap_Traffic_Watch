@@ -27,12 +27,20 @@ A fully serverless data pipeline that crawls HERE traffic data for Go Vap, store
 - ✅ CI/CD with GitHub Actions
 
 ## Architecture Diagram
+<div align="center">
+  <img src="./img/architecture.png" alt="Architecture Diagram" width="80%" />
+</div>
 
 ## Demo Dashboard
-
+<div align="center">
+  <a href="https://lookerstudio.google.com/u/0/reporting/a60b9db8-85ba-4e01-b336-2d1e6c4ab968/page/yRBMF" target="_blank">
+    <img src="./img/dashboard.png" alt="Demo Dashboard Tab 1" />
+  </a>
+  <p><a href="https://lookerstudio.google.com/u/0/reporting/a60b9db8-85ba-4e01-b336-2d1e6c4ab968/page/yRBMF" target="_blank">View Full Dashboard</a></p>
+</div>
 
 ## Schedule
-- Runs every day (6 am and 18 pm) using **Cloud Scheduler**
+- Runs every day (6 am and 6 pm) using **Cloud Scheduler**
 - Executes `Cloud Workflow` which:
   1. Triggers traffic data crawling from HERE API
   2. Transforms and loads data to BigQuery
