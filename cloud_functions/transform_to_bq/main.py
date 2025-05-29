@@ -55,7 +55,7 @@ def transform_to_bq_entrypoint(request):
     except Exception as e:
         messages.append(f"Error: {str(e)}")
 
-    print("Transformation Summary:")
+    print("Transformations Summary:")
     for msg in messages:
         print(msg)
 
