@@ -47,7 +47,7 @@ def upload_to_gcs(bucket_name: str, content: dict, prefix: str = "raw") -> str:
 
 def fetch_and_upload_traffic_data(request):
     try:
-        print("🚦 Fetching traffic data for Gò Vấp...")
+        print(" Fetching traffic data for Gò Vấp...")
         traffic_data = get_traffic_flow_data(API_KEY)
 
         print("☁️ Uploading to GCS...")
